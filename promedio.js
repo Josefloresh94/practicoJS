@@ -11,6 +11,8 @@ const lista1 = [
 //     sumaLista1 = sumaLista1 + lista1[i];
 // }
 
+// const promedioLista1 = sumaLista1 / lista1.length;
+
 function calcularMediaAritmetica(lista){
     //reduce recibe una funcion y permite ir sumando cada uno de los elementos en un bucle
     const sumaLista = lista.reduce(
