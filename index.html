@@ -4,35 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
     <title>Home | Curso Práctico de JavaScript</title>
 </head>
 <body>
-    <head>
-        <h1>Talleres del Curso Práctico de JavaScript</h1>
-    </head>
-    <section>
+    <header>
         <nav>
-            <ol>
-                <li>
-                    <a href="./figuras.html">Taller #1</a>
-                </li>
-                <li>
-                    <a href="./descuentos.html">Taller #2</a>
-                </li>
-                <li>
-                    <a href="./promedio.html">Taller #3 - A</a>
-                </li>
-                <li>
-                    <a href="./mediana.html">Taller #3 - B</a>
-                </li>
-                <li>
-                    <a href="./moda.html">Taller #3 - C</a>
-                </li>
-                <li>
-                    <a href="./salarios.html">Taller #4</a>
-                </li>
-            </ol>
+            <div>
+                <img class="js-challenge" src="./assets/js-challenge-logo.png" alt="Logo JavaScript">
+            </div>
+            <a class="user" href="/" target="_blank">@joseflores</a>
         </nav>
-    </section>
+    </header>
+    <main>
+        <section class="resume">
+            <h3>Taller práctico - Platzi</h3>
+            <h1>Curso Práctico de JavaScript</h1>
+            <p>
+                <strong>Temas vistos en el curso</strong>
+            </p>
+            <ul>
+                <li>Manipulación del Dom</li>
+                <li>Manipulación de Array</li>
+                <li>Funciones</li>
+                <li>HTML y CSS</li>
+                <li>Preprocesadores (Sass)</li>
+                <li>Animaciones y transiciones</li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">Curso de Frontend Developer - @teffcode</a>
+                </li>
+                <li>
+                    <a href="">Curso de Preprocesadores - @</a>
+                </li>
+                <li>
+                    <a href="">Curso Básico de JavaScript - @degranda10</a>
+                </li>
+                <li>
+                    <a href="">Curso Práctico de JavaScript - @juandc</a>
+                </li>
+            </ul>
+        </section>
+        <section class="works">
+            <div class="cards">
+                <div class="cards__item" onclick="location.href='./html/figuras.html'">
+                    <img src="./assets/formas-3d.png" alt="">
+                    <div>
+                        <div>
+                            <h4>Taller #1</h4>
+                            <h2>Figuras Geometricas</h2>
+                        </div>
+                        <p>Calculos básicos de áreas y perímetros, para Cuadrados, Triangulos y Circulos</p>
+                    </div>
+                </div>
+                <div class="cards__item" onclick="location.href='./html/descuentos.html'">
+                    <img src="./assets/fluctuation.png" alt="">
+                    <div>
+                        <div>
+                            <h4>Taller #2</h4>
+                            <h2>Precios y descuentos</h2>
+                        </div>
+                        <p>Calculos básicos de precios, descuentos y cupones de pago</p>
+                    </div>
+                </div>
+                <div class="cards__item" onclick="location.href='./html/taller3.html'">
+                    <img src="./assets/presentation.png" alt="">
+                    <div>
+                        <div>
+                            <h4>Taller #3</h4>
+                            <h2>Promedios, Moda y Mediana</h2>
+                        </div>
+                        <p>Calculos básicos y avanzados</p>
+                    </div>
+                </div>
+                <div class="cards__item" onclick="location.href='./html/salarios.html'">
+                    <img src="./assets/bank.png" alt="">
+                    <div>
+                        <div>
+                            <h4>Taller #4</h4>
+                            <h2>Analisis Salarial</h2>
+                        </div>
+                        <p>Calculos básicos para trabajar con salarios (Medianas y top 10%)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

@@ -1,0 +1,45 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #090909;
+  position: relative;
+}
+
+header {
+  display: block;
+}
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  min-width: 320px;
+  height: 100px;
+  background-color: #090909;
+}
+header nav .js-challenge {
+  width: 75px;
+  height: 75px;
+}
+header nav a.user {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #F6DF1C;
+  text-transform: uppercase;
+  text-decoration: none;
+}
