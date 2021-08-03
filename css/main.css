@@ -7,16 +7,30 @@
 
 html {
   font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
   color: #090909;
   position: relative;
 }
 
 header {
-  display: block;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 100px;
+  background-color: #090909;
 }
 header nav {
   display: -webkit-box;
@@ -27,19 +41,128 @@ header nav {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  width: 100%;
-  min-width: 320px;
-  height: 100px;
-  background-color: #090909;
 }
 header nav .js-challenge {
   width: 75px;
   height: 75px;
 }
 header nav a.user {
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   font-weight: bold;
   color: #F6DF1C;
   text-transform: uppercase;
   text-decoration: none;
+}
+
+.main__talleres--container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 70px;
+  text-align: center;
+  background: #F6DF1C;
+}
+
+.talleres--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+}
+.talleres--title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: #090909;
+}
+.talleres--title p {
+  padding-top: 30px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #090909;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  -ms-scroll-snap-type: x proximity;
+      scroll-snap-type: x proximity;
+}
+
+.cards__item {
+  position: relative;
+  scroll-snap-align: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px 15px 0;
+  padding: 0 15px;
+  background-color: #090909;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 28px white;
+          box-shadow: 0 10px 28px white;
+}
+.cards__item .cards__item--geometricas {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  padding: 6px;
+  top: -35px;
+  left: calc(50% - 35px);
+  background: #F6DF1C;
+  border-radius: 8px;
+}
+.cards__item .cards__item--descuentos {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  padding: 6px;
+  top: -35px;
+  left: calc(50% - 35px);
+  background: #F6DF1C;
+  border-radius: 8px;
+}
+.cards__item .cards__item--promedios {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  padding: 6px;
+  top: -35px;
+  left: calc(50% - 35px);
+  background: #F6DF1C;
+  border-radius: 8px;
+}
+.cards__item .cards__item--salarios {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  padding: 6px;
+  top: -35px;
+  left: calc(50% - 35px);
+  background: #F6DF1C;
+  border-radius: 8px;
+}
+.cards__item .taller--number {
+  padding-top: 65px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #fff;
+}
+.cards__item .taller--title {
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  margin-top: 10px;
+  color: #fff;
+}
+.cards__item .taller--description {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  color: #fff;
 }

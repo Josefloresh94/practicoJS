@@ -38,62 +38,58 @@
             </ul>
             <ul>
                 <li>
-                    <a href="">Curso de Frontend Developer - @teffcode</a>
+                    <a href="/">Curso de Frontend Developer - @teffcode</a>
                 </li>
                 <li>
-                    <a href="">Curso de Preprocesadores - @</a>
+                    <a href="/">Curso de Preprocesadores - @</a>
                 </li>
                 <li>
-                    <a href="">Curso Básico de JavaScript - @degranda10</a>
+                    <a href="/">Curso Básico de JavaScript - @degranda10</a>
                 </li>
                 <li>
-                    <a href="">Curso Práctico de JavaScript - @juandc</a>
+                    <a href="/">Curso Práctico de JavaScript - @juandc</a>
                 </li>
             </ul>
         </section>
-        <section class="works">
-            <div class="cards">
-                <div class="cards__item" onclick="location.href='./html/figuras.html'">
-                    <img src="./assets/formas-3d.png" alt="">
-                    <div>
-                        <div>
-                            <h4>Taller #1</h4>
-                            <h2>Figuras Geometricas</h2>
-                        </div>
-                        <p>Calculos básicos de áreas y perímetros, para Cuadrados, Triangulos y Circulos</p>
-                    </div>
-                </div>
-                <div class="cards__item" onclick="location.href='./html/descuentos.html'">
-                    <img src="./assets/fluctuation.png" alt="">
-                    <div>
-                        <div>
-                            <h4>Taller #2</h4>
-                            <h2>Precios y descuentos</h2>
-                        </div>
-                        <p>Calculos básicos de precios, descuentos y cupones de pago</p>
-                    </div>
-                </div>
-                <div class="cards__item" onclick="location.href='./html/taller3.html'">
-                    <img src="./assets/presentation.png" alt="">
-                    <div>
-                        <div>
-                            <h4>Taller #3</h4>
-                            <h2>Promedios, Moda y Mediana</h2>
-                        </div>
-                        <p>Calculos básicos y avanzados</p>
-                    </div>
-                </div>
-                <div class="cards__item" onclick="location.href='./html/salarios.html'">
-                    <img src="./assets/bank.png" alt="">
-                    <div>
-                        <div>
-                            <h4>Taller #4</h4>
-                            <h2>Analisis Salarial</h2>
-                        </div>
-                        <p>Calculos básicos para trabajar con salarios (Medianas y top 10%)</p>
-                    </div>
-                </div>
+        <section id="talleres" class="main__talleres--container">
+            <div class="talleres--title">
+                <h2>Talleres</h2>
+                <p>Estos talleres fueron desarrollados en 2021</p>
             </div>
+            <section class="cards">
+                <article class="cards__item" onclick="location.href='./html/figuras.html'">
+                    <img class="cards__item--geometricas" src="./assets/formas-3d.png" alt="">
+                    <div>
+                        <h2 class="taller--number">Taller #1</h2>
+                        <h3 class="taller--title">Figuras Geometricas</h3>
+                    </div>
+                    <p class="taller--description">Calculos básicos de áreas y perímetros, para Cuadrados, Triangulos y Circulos</p>
+                </article>
+                <article class="cards__item" onclick="location.href='./html/descuentos.html'">
+                    <img class="cards__item--descuentos" src="./assets/fluctuation.png" alt="">
+                    <div>
+                        <h2 class="taller--number">Taller #2</h2>
+                        <h3 class="taller--title">Precios y descuentos</h3>
+                    </div>
+                    <p class="taller--description">Calculos básicos de precios, descuentos y cupones de pago</p>
+                </article>
+                <article class="cards__item" onclick="location.href='./html/taller3.html'">
+                    <img class="cards__item--promedios" src="./assets/presentation.png" alt="">
+                    <div>
+                        <h2 class="taller--number">Taller #3</h2>
+                        <h3 class="taller--title">Promedios, Moda y Mediana</h3>
+                    </div>
+                    <p class="taller--description">Calculos básicos y avanzados</p>
+                </article>
+                <article class="cards__item" onclick="location.href='./html/salarios.html'">
+                    <img class="cards__item--salarios" src="./assets/bank.png" alt="">
+                    <div>
+                        <h2 class="taller--number">Taller #4</h2>
+                        <h3 class="taller--title">Analisis <br>Salarial</h3>
+                    </div>
+                    <p class="taller--description">Calculos básicos para trabajar con salarios (Medianas y top 10%)</p>
+                </article>
+            </section>
         </section>
     </main>
 </body>
