@@ -1,0 +1,105 @@
+.main__talleres--container {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: $javascript;
+}
+.talleres--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    h2 {
+        padding-top: 50px;
+        font-size: 2.4rem;
+        font-weight: bold;
+        line-height: 2.6rem;
+        color: $black;
+    }
+    p{
+        padding-top: 30px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: $black;
+    }
+}
+.cards{
+    display: flex;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+}
+.cards__item {
+    position: relative;
+    scroll-snap-align: center;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 15px 0;
+    padding: 0 15px;
+    background-color: $black;
+    border-radius: 15px;
+    box-shadow: 0 10px 28px rgb(255,255,255);
+    .cards__item--geometricas {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        padding: 6px;
+        top: -35px;
+        left: calc(50% - 35px);
+        background: $javascript;
+        border-radius: 8px;
+    }
+    .cards__item--descuentos {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        padding: 6px;
+        top: -35px;
+        left: calc(50% - 35px);
+        background: $javascript;
+        border-radius: 8px;
+    }
+    .cards__item--promedios {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        padding: 6px;
+        top: -35px;
+        left: calc(50% - 35px);
+        background: $javascript;
+        border-radius: 8px;
+    }
+    .cards__item--salarios {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        padding: 6px;
+        top: -35px;
+        left: calc(50% - 35px);
+        background: $javascript;
+        border-radius: 8px;
+    }
+    .taller--number {
+        padding-top: 65px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.8rem;
+        color: $just-white;
+    }
+    .taller--title{
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+        margin-top: 10px;
+        color: $just-white;
+    }
+    .taller--description {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        color: $just-white;
+    }
+}
