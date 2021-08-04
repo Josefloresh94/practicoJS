@@ -54,6 +54,116 @@ header nav a.user {
   text-decoration: none;
 }
 
+.resume {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background: #090909;
+}
+.resume .resume__detail--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  color: #F6DF1C;
+}
+.resume .resume__detail--title h1 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+.resume .resume__detail--title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+.resume .class__detail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: #F6DF1C;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 6px 10px white;
+          box-shadow: 0 6px 10px white;
+}
+.resume .class__detail--card .HTML {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../../assets/html-5-logotype.png);
+  background-color: #F6DF1C;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.resume .class__detail--card .CSS {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../../assets/css-3.png);
+  background-color: #F6DF1C;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.resume .class__detail--card .SASS {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../../assets/sass.png);
+  background-color: #F6DF1C;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.resume .class__detail--card .JS {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../../assets/javascript.png);
+  background-color: #F6DF1C;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.resume .class__detail--card .Animations {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url(../../assets/motion-graphic.png);
+  background-color: #F6DF1C;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.resume .class__detail--card .class__card--title {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #090909;
+}
+.resume .class__detail--card .class__card--body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #090909;
+}
+
 .main__talleres--container {
   width: 100%;
   min-width: 320px;
