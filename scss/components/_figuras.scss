@@ -1,0 +1,35 @@
+.cuadrados {
+    display: flex;
+    height: 316px;
+    color: $just-white;
+    background: $javascript;
+    .cuadrados__item {
+        position: center;
+        width: 70%;
+        min-width: 230px;
+        max-width: 300px;
+        height: 250px;
+        margin: 20px 45px 0;
+        padding: 0 15px;
+        background-color: $black;
+        border-radius: 15px;
+        box-shadow: 0 10px 8px rgb(255,255,255);
+        h2 {
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+            font-weight: bold;
+            line-height: 1.8rem;
+            color: $just-white;
+        }
+        .cuadrados__item--data {
+            border: 2px solid $just-white;
+            border-radius: 5px;
+            text-align: center;
+            .cuadrados__item--description {
+                font-size: 1.5rem;
+                line-height: 1.8rem;
+            }
+        }
+    }
+}

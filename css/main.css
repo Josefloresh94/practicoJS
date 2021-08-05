@@ -54,6 +54,45 @@ header nav a.user {
   text-decoration: none;
 }
 
+.cuadrados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 316px;
+  color: #fff;
+  background: #F6DF1C;
+}
+.cuadrados .cuadrados__item {
+  position: center;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 20px 45px 0;
+  padding: 0 15px;
+  background-color: #090909;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 8px white;
+          box-shadow: 0 10px 8px white;
+}
+.cuadrados .cuadrados__item h2 {
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #fff;
+}
+.cuadrados .cuadrados__item .cuadrados__item--data {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-align: center;
+}
+.cuadrados .cuadrados__item .cuadrados__item--data .cuadrados__item--description {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
 .resume {
   position: relative;
   width: 100%;
@@ -67,7 +106,7 @@ header nav a.user {
   min-width: 288px;
   height: auto;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
   color: #F6DF1C;
 }
